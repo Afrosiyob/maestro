@@ -197,5 +197,88 @@
             width: 100%;
             font-family: Regular 14px/26px Product Sans;
             font-size: 14px; }
+  * .section3 {
+    width: 100%;
+    padding: 100px 0;
+    margin-top: 50px;
+    background-color: #fafafc;
+    position: relative; }
+    * .section3 .sec3-box {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      display: flex;
+      flex-direction: row; }
+      * .section3 .sec3-box .left {
+        color: #001053;
+        width: 65%;
+        height: 100%;
+        display: flex;
+        flex-direction: column; }
+        * .section3 .sec3-box .left p {
+          width: 65%; }
+          @media screen and (max-width: 500px) {
+            * .section3 .sec3-box .left p {
+              width: 100%; } }
+        @media screen and (max-width: 500px) {
+          * .section3 .sec3-box .left {
+            width: 100%;
+            height: 65%; } }
+      * .section3 .sec3-box .right {
+        width: 35%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center; }
+        * .section3 .sec3-box .right .telefon,
+        * .section3 .sec3-box .right .manzil,
+        * .section3 .sec3-box .right .email {
+          color: #001053;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          padding: 10px;
+          align-items: center;
+          margin-bottom: 10px;
+          background-color: #e9eaef; }
+          * .section3 .sec3-box .right .telefon span,
+          * .section3 .sec3-box .right .manzil span,
+          * .section3 .sec3-box .right .email span {
+            width: 50px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center; }
+          * .section3 .sec3-box .right .telefon div,
+          * .section3 .sec3-box .right .manzil div,
+          * .section3 .sec3-box .right .email div {
+            display: flex;
+            flex-direction: column; }
+        @media screen and (max-width: 500px) {
+          * .section3 .sec3-box .right {
+            width: 100%;
+            height: 35%; } }
+      @media screen and (max-width: 500px) {
+        * .section3 .sec3-box {
+          flex-direction: column; } }
+  * .section4 {
+    margin: 50px 0; }
+    * .section4 .container .row div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      padding: 15px; }
+    * .section4 .container .row .left {
+      color: white;
+      background-color: #001053;
+      border-radius: 15px 0px 0px 0; }
+    * .section4 .container .row .right {
+      color: black;
+      border-radius: 0 15px 15px 0;
+      background-color: #FFC524; }
 
 /*# sourceMappingURL=diller.css.map */
