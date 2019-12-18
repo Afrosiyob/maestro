@@ -143,6 +143,13 @@
                         }
 
                         form {
+
+                            .xa-btn {
+                                border-top-left-radius: 0 !important;
+                                color: #001053;
+                                font-weight: bold;
+                                font-size: 15px;
+                            }
                             width: 100%;
 
                             div.row {

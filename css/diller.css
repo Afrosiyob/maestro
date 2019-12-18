@@ -105,6 +105,11 @@
             margin-bottom: 20px; }
           * .about-header .bg-box .container .row .right form {
             width: 100%; }
+            * .about-header .bg-box .container .row .right form .xa-btn {
+              border-top-left-radius: 0 !important;
+              color: #001053;
+              font-weight: bold;
+              font-size: 15px; }
             * .about-header .bg-box .container .row .right form div.row {
               width: 100%;
               display: flex;
