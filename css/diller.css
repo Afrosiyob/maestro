@@ -119,16 +119,45 @@
                 width: 100%; }
                 * .about-header .bg-box .container .row .right form div.row div label {
                   color: white; }
-                * .about-header .bg-box .container .row .right form div.row div input, * .about-header .bg-box .container .row .right form div.row div textarea {
+                * .about-header .bg-box .container .row .right form div.row div input,
+                * .about-header .bg-box .container .row .right form div.row div textarea {
                   width: 100%;
                   padding: 10px 20px;
                   background-color: #414e80 !important;
                   color: white;
                   border: none;
                   outline: none; }
-                  * .about-header .bg-box .container .row .right form div.row div input:focus, * .about-header .bg-box .container .row .right form div.row div textarea:focus {
+                  * .about-header .bg-box .container .row .right form div.row div input:focus,
+                  * .about-header .bg-box .container .row .right form div.row div textarea:focus {
                     border: none;
                     background-color: #414e80 !important;
                     outline: none; }
+  * .section1 {
+    margin: 50px;
+    background-color: #fff; }
+    * .section1 .container h2 {
+      color: #001053;
+      font-weight: bold;
+      font-family: Bold 42px/63px Product Sans; }
+    * .section1 .container p {
+      color: #9D9D9D;
+      width: 50%;
+      font-family: Regular 16px/26px Product Sans; }
+    * .section1 .container .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+      * .section1 .container .row div {
+        width: 390px;
+        height: 223px;
+        padding: 5px; }
+        * .section1 .container .row div .box {
+          background: #0010530D 0% 0% no-repeat padding-box;
+          border-radius: 15px 15px 15px 0px;
+          width: 100%;
+          height: 100%;
+          transition: all 0.2s linear; }
+          * .section1 .container .row div .box:hover {
+            background: #001053 0% 0% no-repeat padding-box; }
 
 /*# sourceMappingURL=diller.css.map */
