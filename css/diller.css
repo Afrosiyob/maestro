@@ -280,5 +280,45 @@
       color: black;
       border-radius: 0 15px 15px 0;
       background-color: #FFC524; }
+  * .section5 {
+    width: 100%;
+    background-image: url("../img/0b3408904ccf6e33fb0a69020273f510.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    margin: 50px 0;
+    position: relative; }
+    * .section5 .bg-shadow {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(9, 25, 87, 0.8); }
+      * .section5 .bg-shadow .container {
+        color: white;
+        padding: 70px 0; }
+        * .section5 .bg-shadow .container h3 {
+          font-family: Bold 42px/63px Product Sans;
+          color: #FFFFFF; }
+        * .section5 .bg-shadow .container p {
+          font: Regular 16px/26px Product Sans;
+          letter-spacing: 0;
+          color: #FFFFFFCC;
+          width: 50%; }
+        * .section5 .bg-shadow .container .row .item {
+          padding: 10px;
+          width: 100%; }
+          * .section5 .bg-shadow .container .row .item .box {
+            width: 100%;
+            height: 309px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 0px 15px 15px 15px;
+            position: relative; }
+            * .section5 .bg-shadow .container .row .item .box .number-corner {
+              float: right;
+              width: 72px;
+              height: 72px;
+              background: #FFC524 0% 0% no-repeat padding-box;
+              border-radius: 0px 15px;
+              opacity: 1; }
 
 /*# sourceMappingURL=diller.css.map */
