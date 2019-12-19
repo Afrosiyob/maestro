@@ -342,7 +342,75 @@
   * .section6 {
     width: 100%;
     padding: 50px 0;
-    margin: 50px 0;
-    background-color: yellow; }
+    margin: 50px 0; }
+    * .section6 .container h3 {
+      text-align: left;
+      font-family: Bold 42px/63px Product Sans;
+      letter-spacing: 0;
+      color: #001053;
+      font-weight: bold; }
+    * .section6 .container p {
+      width: 50%;
+      text-align: left;
+      font-family: Regular 16px/26px Product Sans;
+      letter-spacing: 0;
+      color: #7B7B7B; }
+    * .section6 .container .row .left .box {
+      display: flex;
+      flex-direction: row; }
+      * .section6 .container .row .left .box span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        width: 77px;
+        background: #FFC524 0% 0% no-repeat padding-box;
+        border-radius: 15px 0px 0px 15px;
+        opacity: 1; }
+      * .section6 .container .row .left .box div {
+        padding: 10px 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        font-family: Regular 16px/26px Product Sans;
+        letter-spacing: 0;
+        color: #001053;
+        background: #f2f3f6 0% 0% no-repeat padding-box; }
+    * .section6 .container .row .right {
+      display: flex;
+      flex-direction: column; }
+      * .section6 .container .row .right h4 {
+        font-weight: bold;
+        text-align: left;
+        font-family: Bold 24px/36px Product Sans;
+        letter-spacing: 0;
+        color: #001053; }
+      * .section6 .container .row .right p {
+        width: 100%;
+        text-align: left;
+        font-family: Regular 16px/26px Product Sans;
+        letter-spacing: 0;
+        color: #7B7B7B;
+        opacity: 1; }
+      * .section6 .container .row .right .info-box {
+        width: 100%;
+        padding: 20px;
+        background: #f2f3f6 0% 0% no-repeat padding-box;
+        border-radius: 15px; }
+        * .section6 .container .row .right .info-box h4 {
+          text-align: left;
+          font-family: Bold 24px/36px Product Sans;
+          letter-spacing: 0;
+          color: #001053;
+          opacity: 1; }
+        * .section6 .container .row .right .info-box p {
+          font-family: Regular 16px/26px Product Sans;
+          letter-spacing: 0;
+          color: #001053CC; }
 
 /*# sourceMappingURL=diller.css.map */
