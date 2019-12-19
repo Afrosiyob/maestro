@@ -1,3 +1,86 @@
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+  * .about-header {
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    position: relative; }
+    @media screen and (max-width: 500px) {
+      * .about-header {
+        height: 100vh; } }
+    * .about-header .bg-box {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background-color: white; }
+    * .about-header .info {
+      position: absolute;
+      z-index: 2;
+      width: 100%;
+      height: 100%; }
+      * .about-header .info .info-max {
+        padding-top: 50px;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center; }
+        * .about-header .info .info-max h2 {
+          font-size: 4rem;
+          font-weight: bold;
+          font-family: Bold 62px/95px Product Sans;
+          color: #001053;
+          font-variant: small-caps; }
+          @media screen and (max-width: 600px) {
+            * .about-header .info .info-max h2 {
+              font-size: 50px; } }
+          @media screen and (max-width: 500px) {
+            * .about-header .info .info-max h2 {
+              font-size: 30px; } }
+        * .about-header .info .info-max p {
+          font: Regular 16px/26px Product Sans;
+          color: #9D9D9D;
+          width: 80%;
+          text-align: center; }
+        * .about-header .info .info-max .mouse {
+          margin-top: 20px;
+          width: 100px;
+          height: 200px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          align-content: center; }
+          * .about-header .info .info-max .mouse img {
+            width: 30px;
+            height: 30px; }
+          * .about-header .info .info-max .mouse p {
+            writing-mode: vertical-rl;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            width: 100%;
+            font-size: 10px;
+            line-height: 20px; }
+          * .about-header .info .info-max .mouse span {
+            margin: 5px 0;
+            width: 2px;
+            height: 70px;
+            background-color: #9D9D9D; }
 
 /*# sourceMappingURL=gall.css.map */
