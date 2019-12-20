@@ -26,6 +26,14 @@
         margin: 50px 0;
         padding: 50px 0;
         background-color: rgb(250,250,252);
+        @media screen and ( max-width: 780px ) {
+            padding: 0;
+            padding-bottom: 20px;
+        }
+        @media screen and ( max-width: 500px ) {
+            padding: 20px 0;
+            margin: 20px 0;
+        }
 
         .container {
             .d-flex {
@@ -200,7 +208,7 @@
         content: "";
         position: relative;
 
-        @media screen and (max-width:500px) {
+        @media screen and (max-width:760px) {
             height: 100vh;
         }
 
@@ -220,7 +228,7 @@
             .container {
                 .row {
                     display: flex;
-                    @media screen and (max-width: 600px) {
+                    @media screen and (max-width: 770px) {
                         flex-direction: column-reverse;
                     }
 
@@ -234,6 +242,12 @@
                             width: 70%;
                             font-size: 60px;
                             color: red;
+                            @media screen and (max-width:1000px) {
+                                font-size: 45px;
+                            }
+                            @media screen and (max-width:700px) {
+                                font-size: 35px;
+                            }
                         }
                         p {
                             color: white;
@@ -241,29 +255,40 @@
                             margin: 0;
                         }
                         .mouse {
-                            // margin-top: 20px;
+                            
         
                             img {
                                 width: 30px;
                                 height: 30px;
                             }
+
                             width: 100px;
                             height: 200px;
-                            // background-color: red;
+                            
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
                             align-content: center;
+                            
+                            @media screen and (max-width:770px) {
+                                width: 50px;
+                                height: 100px;
+                                margin-top: 10px;
+                                
+                                // float: right;
+                                
+                            }
                             p {
+
                                 writing-mode: vertical-rl;
                                 text-align: center;
-                                // background-color: red;
+                                
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
                                 align-content: center;
-                                // height: 100%;
+                            
                                 width: 100%;
                                 font-size: 10px;
                                 line-height: 20px;
@@ -272,7 +297,10 @@
                                 margin: 5px 0;
                                 width: 2px;
                                 height: 50px;
-                                background-color:  #9D9D9D;;
+                                background-color:  #9D9D9D;
+                                @media screen and (max-width:770px){
+                                    height: 30px;
+                                }
                             }
                         }
                     }
@@ -291,6 +319,12 @@
                             border-radius: 10px;
                             
                             background-color: rgb(233,233,233);
+
+                            @media screen and (max-width: 770px) {
+                                width: 100%;
+                                height: 270px;
+                                // margin-top: 25px;
+                            }
                             
                         }
                     }
@@ -396,7 +430,9 @@
                 border-bottom-left-radius: 15px;
                 border-top-right-radius: 15px;
                 border-bottom-right-radius: 15px;
-
+                @media screen and (max-width: 500px) {
+                    width: 100%;
+                }
                 div {
                     background-color: rgba(0, 0, 0, 0.5);
                 }
