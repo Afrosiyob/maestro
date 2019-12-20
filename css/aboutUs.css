@@ -178,7 +178,7 @@
             font-family: Bold 62px/95px Product Sans;
             width: 70%;
             font-size: 60px;
-            color: red; }
+            color: white; }
             @media screen and (max-width: 1000px) {
               * .about-header .bg-box .container .row .left h2 {
                 font-size: 45px; } }
