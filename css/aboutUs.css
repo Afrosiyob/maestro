@@ -10,10 +10,6 @@
     font-weight: bold;
     font-family: Bold 62px/95px Product Sans;
     color: #001053; }
-  * p {
-    font: Regular 16px/26px Product Sans;
-    color: #9D9D9D;
-    width: 80%; }
   * .section33 {
     margin: 50px 0;
     padding: 50px 0;
@@ -24,7 +20,7 @@
         padding-bottom: 20px; } }
     @media screen and (max-width: 500px) {
       * .section33 {
-        padding: 20px 0;
+        padding: 20px 20px;
         margin: 20px 0; } }
     @media screen and (max-width: 600px) {
       * .section33 .container .d-flex {
