@@ -39,8 +39,8 @@
         content: "";
         position: relative;
 
-        @media screen and (max-width:500px) {
-            height: 100vh;
+        @media screen and (max-width:770px) {
+            height: 120vh;
         }
 
         .bg-box {
@@ -55,6 +55,11 @@
             justify-content: center;
             align-content: center;
             align-items: center;
+
+            @media screen and (max-width: 770px) {
+                align-items: flex-start;
+                padding-top: 20px;
+            }
 
             .container {
                 .row {
@@ -75,6 +80,12 @@
                             width: 70%;
                             font-size: 60px;
                             color: white;
+                            @media screen and (max-width:1000px) {
+                                font-size: 45px;
+                            }
+                            @media screen and (max-width:700px) {
+                                font-size: 35px;
+                            }
                         }
 
                         p {
@@ -85,6 +96,14 @@
 
                         .mouse {
                             // margin-top: 20px;
+                            @media screen and (max-width:770px) {
+                                width: 50px;
+                                height: 100px;
+                                margin-top: 10px;
+                                
+                                // float: right;
+                                
+                            }
 
                             img {
                                 width: 30px;
@@ -119,7 +138,9 @@
                                 width: 2px;
                                 height: 50px;
                                 background-color: #9D9D9D;
-                                ;
+                                @media screen and (max-width:770px){
+                                    height: 30px;
+                                }
                             }
                         }
                     }
@@ -143,18 +164,33 @@
                         }
 
                         form {
+                            position: relative;
+                            padding: 0;
+                            margin: 0;
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: column;
+                            align-items: flex-start;
+
+                            @media screen and (max-width: 770px) {
+                                align-items: center;
+                            }
 
                             .xa-btn {
                                 border-top-left-radius: 0 !important;
                                 color: #001053;
                                 font-weight: bold;
                                 font-size: 15px;
+                               
                                 border-radius: 10px;
                             }
 
                             width: 100%;
+                            height: 120%;
 
                             div.row {
+                                padding: 0;
+
                                 width: 100%;
                                 display: flex;
                                 justify-content: space-between;

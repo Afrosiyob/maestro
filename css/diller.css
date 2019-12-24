@@ -31,9 +31,9 @@
     background-position: center;
     content: "";
     position: relative; }
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 770px) {
       * .about-header {
-        height: 100vh; } }
+        height: 120vh; } }
     * .about-header .bg-box {
       position: absolute;
       left: 0;
@@ -46,6 +46,10 @@
       justify-content: center;
       align-content: center;
       align-items: center; }
+      @media screen and (max-width: 770px) {
+        * .about-header .bg-box {
+          align-items: flex-start;
+          padding-top: 20px; } }
       * .about-header .bg-box .container .row {
         display: flex; }
         @media screen and (max-width: 600px) {
@@ -61,6 +65,12 @@
             width: 70%;
             font-size: 60px;
             color: white; }
+            @media screen and (max-width: 1000px) {
+              * .about-header .bg-box .container .row .left h2 {
+                font-size: 45px; } }
+            @media screen and (max-width: 700px) {
+              * .about-header .bg-box .container .row .left h2 {
+                font-size: 35px; } }
           * .about-header .bg-box .container .row .left p {
             color: white;
             padding: 0;
@@ -73,6 +83,11 @@
             justify-content: center;
             align-items: center;
             align-content: center; }
+            @media screen and (max-width: 770px) {
+              * .about-header .bg-box .container .row .left .mouse {
+                width: 50px;
+                height: 100px;
+                margin-top: 10px; } }
             * .about-header .bg-box .container .row .left .mouse img {
               width: 30px;
               height: 30px; }
@@ -91,6 +106,9 @@
               width: 2px;
               height: 50px;
               background-color: #9D9D9D; }
+              @media screen and (max-width: 770px) {
+                * .about-header .bg-box .container .row .left .mouse span {
+                  height: 30px; } }
         * .about-header .bg-box .container .row .right {
           position: relative;
           display: flex;
@@ -104,7 +122,18 @@
             color: #FFFFFFCC;
             margin-bottom: 20px; }
           * .about-header .bg-box .container .row .right form {
-            width: 100%; }
+            position: relative;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+            height: 120%; }
+            @media screen and (max-width: 770px) {
+              * .about-header .bg-box .container .row .right form {
+                align-items: center; } }
             * .about-header .bg-box .container .row .right form .xa-btn {
               border-top-left-radius: 0 !important;
               color: #001053;
@@ -112,6 +141,7 @@
               font-size: 15px;
               border-radius: 10px; }
             * .about-header .bg-box .container .row .right form div.row {
+              padding: 0;
               width: 100%;
               display: flex;
               justify-content: space-between; }
