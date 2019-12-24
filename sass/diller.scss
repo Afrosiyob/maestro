@@ -40,7 +40,7 @@
         position: relative;
 
         @media screen and (max-width:770px) {
-            height: 120vh;
+            height: 130vh;
         }
 
         .bg-box {
@@ -56,7 +56,7 @@
             align-content: center;
             align-items: center;
 
-            @media screen and (max-width: 770px) {
+            @media screen and (max-width: 600px) {
                 align-items: flex-start;
                 padding-top: 20px;
             }
@@ -64,12 +64,14 @@
             .container {
                 .row {
                     display: flex;
+                    
 
                     @media screen and (max-width: 600px) {
                         flex-direction: column;
                     }
 
                     .left {
+                        
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
@@ -98,14 +100,16 @@
 
                         .mouse {
 
-                            // margin-top: 20px;
-                            @media screen and (max-width:770px) {
+
+                            @media screen and (max-width:600px) {
+                                position: absolute;
+                                bottom: -550%;
+                                right: 0;
                                 width: 50px;
                                 height: 100px;
                                 margin-top: 10px;
 
-                                // float: right;
-
+                                
                             }
 
                             img {
@@ -160,6 +164,9 @@
                         h4 {
                             color: white;
                             text-align: left;
+                            @media screen and (max-width: 770px) {
+                                margin-top: 20px;
+                            }
                         }
 
                         p {
@@ -168,19 +175,20 @@
                         }
 
                         form {
-                            position: relative;
-                            padding: 0;
-                            margin: 0;
-                            display: flex;
-                            justify-content: center;
-                            flex-direction: column;
-                            align-items: flex-start;
 
-                            @media screen and (max-width: 770px) {
-                                align-items: center;
+                            .form-box {
+                                display: flex;
+                                flex-direction: row;
+                                width: 100%;
+                                justify-content: space-between;
+                                @media screen and (max-width: 500px) {
+                                    flex-direction: column;
+                                }
                             }
-
-                            .xa-btn {
+                            label {
+                                color: white;
+                            }
+                            .bbt {
                                 border-top-left-radius: 0 !important;
                                 color: #001053;
                                 font-weight: bold;
@@ -188,42 +196,22 @@
 
                                 border-radius: 10px;
                             }
-
-                            width: 100%;
-                            height: 120%;
-
-                            div.row {
-                                padding: 0;
-
+                            input,
+                            textarea {
                                 width: 100%;
-                                display: flex;
-                                justify-content: space-between;
+                                padding: 10px 20px;
+                                background-color: rgb(65, 78, 128) !important;
+                                color: white;
+                                border: none !important;
+                                border-radius: 0 !important;
+                                
+                                
 
-                                div {
-                                    width: 100%;
-
-                                    label {
-                                        color: white;
-                                    }
-
-                                    input,
-                                    textarea {
-                                        width: 100%;
-                                        padding: 10px 20px;
-                                        background-color: rgb(65, 78, 128) !important;
-                                        color: white;
-                                        border: none;
-                                        outline: none;
-
-                                        
-                                        &:focus {
-                                            border: none;
-                                            background-color: rgb(65, 78, 128) !important;
-                                            outline: none;
-                                        }
-                                    }
-
-
+                                
+                                &:focus {
+                                    border: none;
+                                    background-color: rgb(65, 78, 128) !important;
+                                    outline: none;
                                 }
                             }
                         }
@@ -243,7 +231,7 @@
 
 
     .section1 {
-        margin: 50px;
+        margin-top: 50px;
         background-color: #fff;
 
         .container {
@@ -257,7 +245,9 @@
                 color: #9D9D9D;
                 width: 50%;
                 font-family: Regular 16px/26px Product Sans;
-                ;
+                @media screen and (max-width: 800px) {
+                    width: 100%;
+                }
             }
 
             .row {
@@ -472,6 +462,10 @@
         margin: 50px 0;
         position: relative;
 
+        @media screen and (max-width: 800px) {
+            display: none;
+        }
+
         .bg-shadow {
             width: 100%;
             height: 100%;
@@ -497,6 +491,12 @@
                     letter-spacing: 0;
                     color: #FFFFFFCC;
                     width: 50%;
+
+                    @media screen and (max-width: 800px) {
+                        width: 100%;
+                        padding-left: 10px;
+                        
+                    }
                 }
 
                 .row {
@@ -506,11 +506,12 @@
                         width: 100%;
 
                         .box {
+                            margin: auto;
                             padding: 20px;
                             display: flex;
                             flex-direction: column;
                             justify-content: flex-end;
-                            width: 100%;
+                            width: 90%;
                             height: 309px;
                             background-color: rgba(255, 255, 255, 0.2);
                             border-radius: 0px 15px 15px 15px;
@@ -577,6 +578,9 @@
                 font-family: Regular 16px/26px Product Sans;
                 letter-spacing: 0;
                 color: #7B7B7B;
+                @media screen and (max-width: 800px) {
+                    width: 100%;
+                }
             }
 
             .row {
@@ -627,6 +631,9 @@
                         font-family: Bold 24px/36px Product Sans;
                         letter-spacing: 0;
                         color: #001053;
+                        @media screen and (max-width: 800px) {
+                            margin-top: 20px;
+                        }
                     }
 
                     p {
