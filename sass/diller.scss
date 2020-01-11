@@ -103,7 +103,7 @@
 
                             @media screen and (max-width:600px) {
                                 position: absolute;
-                                bottom: -550%;
+                                bottom: -500%;
                                 right: 0;
                                 width: 50px;
                                 height: 100px;
@@ -257,7 +257,7 @@
 
                 div {
 
-                    width: 390px;
+                    // width: 390px;
                     height: 223px;
                     padding: 5px;
 
@@ -449,6 +449,10 @@
                 }
             }
         }
+
+        @media screen and ( max-width:768px ){
+            display: none;
+        }
     }
 
     .section5 {
@@ -585,6 +589,12 @@
 
             .row {
                 .left {
+
+                    div {
+                        @media screen and ( max-width:768px) {
+                            padding: 0 5px !important;
+                        }
+                    }
                     .box {
                         display: flex;
                         flex-direction: row;
@@ -602,10 +612,12 @@
                             background: #FFC524 0% 0% no-repeat padding-box;
                             border-radius: 15px 0px 0px 15px;
                             opacity: 1;
+
+                            
                         }
 
                         div {
-                            padding: 10px 20px;
+                            padding: 10px 20px !important;
                             display: flex;
                             justify-content: flex-start;
                             align-items: center;
@@ -613,10 +625,17 @@
                             width: 100%;
                             // height: 96px;
 
+
                             font-family: Regular 16px/26px Product Sans;
                             letter-spacing: 0;
                             color: #001053;
                             background: rgb(242, 243, 246) 0% 0% no-repeat padding-box;
+
+                            @media screen and ( max-width:768px )  {
+                                // border-radius: 15px;
+                                border-top-right-radius: 15px;
+                                border-bottom-right-radius: 15px;
+                            }
                         }
                     }
                 }
