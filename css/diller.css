@@ -176,7 +176,7 @@
       justify-content: space-between; }
       * .section1 .container .row div {
         height: 223px;
-        padding: 5px; }
+        padding: 10px; }
         * .section1 .container .row div .box {
           padding: 15px;
           display: flex;
@@ -186,7 +186,8 @@
           width: 100%;
           height: 100%;
           color: #001053;
-          transition: all 0.2s linear; }
+          transition: all 0.2s linear;
+          box-shadow: 0.2px 0.2px 10px rgba(0, 0, 0, 0.2); }
           * .section1 .container .row div .box:hover {
             background: #001053 0% 0% no-repeat padding-box;
             color: white; }
@@ -414,12 +415,14 @@
         border-radius: 15px 0px 0px 15px;
         opacity: 1; }
       * .section6 .container .row .left .box div {
+        font-size: 15px;
         padding: 10px 20px !important;
         display: flex;
         justify-content: flex-start;
         align-items: center;
         align-content: center;
         width: 100%;
+        text-align: justify;
         font-family: Regular 16px/26px Product Sans;
         letter-spacing: 0;
         color: #001053;
