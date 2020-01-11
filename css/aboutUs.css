@@ -34,6 +34,16 @@
       color: #091957; }
       * .section33 .container .d-flex .left h4 {
         font-weight: bold; }
+      * .section33 .container .d-flex .left .text-box {
+        height: 400px;
+        overflow: auto; }
+      * .section33 .container .d-flex .left .text-box::-webkit-scrollbar {
+        width: 0.5em !important; }
+      * .section33 .container .d-flex .left .text-box::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0) !important; }
+      * .section33 .container .d-flex .left .text-box::-webkit-scrollbar-thumb {
+        background-color: lightgrey !important;
+        outline: 1px solid slategrey !important; }
       * .section33 .container .d-flex .left .elements {
         width: 100%;
         display: flex;
@@ -118,23 +128,29 @@
         justify-content: center;
         align-items: flex-start;
         align-content: center; }
-        * .section3 .sec3-box .right .telefon, * .section3 .sec3-box .right .manzil, * .section3 .sec3-box .right .email {
+        * .section3 .sec3-box .right .telefon,
+        * .section3 .sec3-box .right .manzil,
+        * .section3 .sec3-box .right .email {
+          padding: 20px 10px !important;
           color: white;
           width: 100%;
           display: flex;
           flex-direction: row;
-          padding: 10px;
           align-items: center;
           margin-bottom: 10px;
           background-color: rgba(255, 255, 255, 0.2); }
-          * .section3 .sec3-box .right .telefon span, * .section3 .sec3-box .right .manzil span, * .section3 .sec3-box .right .email span {
+          * .section3 .sec3-box .right .telefon span,
+          * .section3 .sec3-box .right .manzil span,
+          * .section3 .sec3-box .right .email span {
             width: 50px;
             height: 100%;
             display: flex;
             justify-content: center;
             align-content: center;
             align-items: center; }
-          * .section3 .sec3-box .right .telefon div, * .section3 .sec3-box .right .manzil div, * .section3 .sec3-box .right .email div {
+          * .section3 .sec3-box .right .telefon div,
+          * .section3 .sec3-box .right .manzil div,
+          * .section3 .sec3-box .right .email div {
             display: flex;
             flex-direction: column; }
         @media screen and (max-width: 500px) {

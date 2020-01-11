@@ -149,6 +149,16 @@
       align-content: center;
       justify-content: center;
       color: #091957; }
+      * .section1 .container .d-flex .left .text-box {
+        height: 250px;
+        overflow: auto; }
+      * .section1 .container .d-flex .left .text-box::-webkit-scrollbar {
+        width: 0.5em !important; }
+      * .section1 .container .d-flex .left .text-box::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0) !important; }
+      * .section1 .container .d-flex .left .text-box::-webkit-scrollbar-thumb {
+        background-color: lightgrey !important;
+        outline: 1px solid slategrey !important; }
       * .section1 .container .d-flex .left .elements {
         width: 100%;
         display: flex;
@@ -168,13 +178,16 @@
       align-items: center;
       align-content: center; }
       * .section1 .container .d-flex .right .right-box {
-        width: 400px;
-        height: 400px;
+        margin-bottom: 100px;
+        width: 100%;
+        height: 90%;
         border-radius: 10px;
         background-color: #e9e9e9; }
         @media screen and (max-width: 768px) {
           * .section1 .container .d-flex .right .right-box {
-            height: 300px; } }
+            width: 400px;
+            height: 300px;
+            margin-bottom: 0; } }
   * .section2 {
     margin: 50px 0;
     background-color: #fafafc; }
@@ -190,6 +203,16 @@
         align-content: center;
         justify-content: center;
         color: #091957; }
+        * .section2 .container .d-flex .left .text-box {
+          height: 200px;
+          overflow: auto; }
+        * .section2 .container .d-flex .left .text-box::-webkit-scrollbar {
+          width: 0.5em !important; }
+        * .section2 .container .d-flex .left .text-box::-webkit-scrollbar-track {
+          -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0) !important; }
+        * .section2 .container .d-flex .left .text-box::-webkit-scrollbar-thumb {
+          background-color: lightgrey !important;
+          outline: 1px solid slategrey !important; }
         * .section2 .container .d-flex .left .elements {
           width: 100%;
           display: flex;
@@ -209,13 +232,16 @@
         align-items: center;
         align-content: center; }
         * .section2 .container .d-flex .right .right-box {
-          width: 400px;
-          height: 400px;
+          margin-bottom: 100px;
+          width: 100%;
+          height: 90%;
           border-radius: 10px;
           background-color: #e9e9e9; }
           @media screen and (max-width: 768px) {
             * .section2 .container .d-flex .right .right-box {
-              height: 300px; } }
+              width: 400px;
+              height: 300px;
+              margin-bottom: 0; } }
   * .section3 {
     margin: 50px 0;
     padding: 50px 0;
@@ -230,6 +256,16 @@
       align-content: center;
       justify-content: center;
       color: #091957; }
+      * .section3 .container .d-flex .left .text-box {
+        height: 250px;
+        overflow: auto; }
+      * .section3 .container .d-flex .left .text-box::-webkit-scrollbar {
+        width: 0.5em !important; }
+      * .section3 .container .d-flex .left .text-box::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0) !important; }
+      * .section3 .container .d-flex .left .text-box::-webkit-scrollbar-thumb {
+        background-color: lightgrey !important;
+        outline: 1px solid slategrey !important; }
       * .section3 .container .d-flex .left .elements {
         width: 100%;
         display: flex;
@@ -249,12 +285,15 @@
       align-items: center;
       align-content: center; }
       * .section3 .container .d-flex .right .right-box {
-        width: 400px;
-        height: 400px;
+        margin-bottom: 100px;
+        width: 100%;
+        height: 90%;
         border-radius: 10px;
         background-color: #e9e9e9; }
         @media screen and (max-width: 768px) {
           * .section3 .container .d-flex .right .right-box {
-            height: 300px; } }
+            width: 400px;
+            height: 300px;
+            margin-bottom: 0; } }
 
 /*# sourceMappingURL=mahsulot.css.map */
