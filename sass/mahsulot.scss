@@ -51,7 +51,7 @@
                     font-weight: bold;
                     font-family: Bold 62px/95px Product Sans;
                     color: #001053;
-                    font-variant: small-caps;
+                    // font-variant: small-caps;
                     @media screen and (max-width: 600px) {
                         font-size: 50px;
                     }
@@ -109,6 +109,7 @@
 
 
     }
+
 
     .main-box {
         position: relative;
@@ -241,7 +242,9 @@
                         border-radius: 10px;
                         
                         background-color: rgb(233,233,233);
-                        
+                        @media screen and (max-width:768px) {
+                            height: 300px;
+                        }
                     }
                 }
             }
@@ -297,6 +300,10 @@
                         border-radius: 10px;
                         
                         background-color: rgb(233,233,233);
+
+                        @media screen and (max-width:768px) {
+                            height: 300px;
+                        }
                         
                     }
                 }
@@ -353,7 +360,9 @@
                         border-radius: 10px;
                         
                         background-color: rgb(233,233,233);
-                        
+                        @media screen and (max-width:768px) {
+                            height: 300px;
+                        }
                     }
                 }
             }
