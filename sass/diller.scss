@@ -3,6 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 
+
+
+    * p {
+        @media screen and ( max-width:768px ) {
+            font-size: 14px !important;
+        }
+    }
+
+
+    * h2, h3 {
+        @media screen and ( max-width:768px ) {
+            font-size: 24px !important;
+        }
+    }
+
     .sotcial {
         position: absolute;
         z-index: 22;
@@ -11,6 +26,11 @@
         display: flex;
         flex-direction: row;
 
+        @media screen and ( max-width: 768px ) {
+            left: 5%;
+
+        }
+
         a {
             width: 60px;
             height: 60px;
@@ -18,14 +38,19 @@
             justify-content: center;
             align-items: center;
             align-content: center;
-            color: white;
+            color: rgba(255,255,255,0.5);
             transition: all 0.2s linear;
 
             &:hover {
                 color: orange;
                 background-color: rgba(255, 255, 255, 0.2);
             }
+            
+            @media screen and (max-width:768px) {
+                font-size: 25px;
+            }
         }
+        
     }
 
     .about-header {
@@ -40,7 +65,7 @@
         position: relative;
 
         @media screen and (max-width:770px) {
-            height: 850px;
+            height: 800px;
         }
 
         .bg-box {
@@ -77,18 +102,17 @@
                         justify-content: center;
                         align-items: flex-start;
 
-                        h2 {
+                        h1 {
                             font-family: Bold 62px/95px Product Sans;
                             width: 70%;
                             font-size: 60px;
                             color: white;
+                            font-weight: bold;
 
-                            @media screen and (max-width:1000px) {
-                                font-size: 45px;
-                            }
+                            
 
-                            @media screen and (max-width:700px) {
-                                font-size: 35px;
+                            @media screen and (max-width:768px) {
+                                font-size: 50px;
                             }
                         }
 
@@ -96,6 +120,10 @@
                             color: white;
                             padding: 0;
                             margin: 0;
+
+                            @media screen and ( max-width:768px ) {
+                                font-size: 14px;
+                            }
                         }
 
                         .mouse {
@@ -103,10 +131,10 @@
 
                             @media screen and (max-width:600px) {
                                 position: absolute;
-                                bottom: -500%;
+                                bottom: -360%;
                                 right: 0;
                                 width: 50px;
-                                height: 100px;
+                                height: 120px;
                                 margin-top: 10px;
 
                                 
@@ -114,7 +142,7 @@
 
                             img {
                                 width: 30px;
-                                height: 30px;
+                                height: 40px;
                             }
 
                             width: 100px;
@@ -138,6 +166,7 @@
                                 width: 100%;
                                 font-size: 10px;
                                 line-height: 20px;
+                                
                             }
 
                             span {
@@ -147,7 +176,7 @@
                                 background-color: #9D9D9D;
 
                                 @media screen and (max-width:770px) {
-                                    height: 30px;
+                                    height: 50px;
                                 }
                             }
                         }
@@ -172,6 +201,9 @@
                         p {
                             color: #FFFFFFCC;
                             margin-bottom: 20px;
+                            @media screen and ( max-width:768px ) {
+                                font-size: 14px;
+                            }
                         }
 
                         form {
@@ -236,9 +268,14 @@
 
         .container {
             h2 {
+
                 color: #001053;
                 font-weight: bold;
                 font-family: Bold 42px/63px Product Sans;
+
+                @media screen and ( max-width:768px ) {
+                    font-size: 24px;
+                }
             }
 
             p {
@@ -279,6 +316,7 @@
                         }
 
                         div {
+                            padding: 0;
                             width: 100%;
                             // height: 100%;
                             display: flex;
@@ -289,6 +327,8 @@
 
                             h5 {
                                 padding-left: 10px;
+                                padding-bottom: 0;
+                                margin-bottom: 0;
                                 text-align: left;
                                 font-family: Regular 20px/26px Product Sans;
                                 letter-spacing: 0;
@@ -347,16 +387,20 @@
             flex-direction: row;
 
             .left {
-                color: #001053;
+               
                 width: 65%;
                 height: 100%;
                 // background-color: red;
                 display: flex;
                 flex-direction: column;
 
+                h2 {
+                    color: #001053;
+                }
+
                 p {
                     width: 65%;
-
+                    color: grey;
                     @media screen and (max-width: 500px) {
                         width: 100%;
                     }
@@ -491,11 +535,16 @@
                     color: #FFFFFF;
                 }
 
+                .subtitle {
+                    padding-left: 25px;
+                }
+
                 p {
                     font: Regular 16px/26px Product Sans;
                     letter-spacing: 0;
                     color: #FFFFFFCC;
                     width: 50%;
+                    
 
                     @media screen and (max-width: 800px) {
                         width: 100%;
@@ -533,6 +582,13 @@
                                 background: #FFC524 0% 0% no-repeat padding-box;
                                 border-radius: 0px 15px;
                                 opacity: 1;
+                                color: white;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                align-items: center;
+                                font-size: 40px;
+                                font-weight: bold;
                             }
 
                             .info-box {
@@ -627,7 +683,7 @@
                             width: 100%;
                             // height: 96px;
 
-                            text-align: justify;
+                            
                             font-family: Regular 16px/26px Product Sans;
                             letter-spacing: 0;
                             color: #001053;
@@ -678,6 +734,11 @@
                             letter-spacing: 0;
                             color: #001053;
                             opacity: 1;
+                            
+                            @media screen and (max-width: 768px) {
+                                font-size: 24px;
+                            }
+
                         }
 
                         p {
